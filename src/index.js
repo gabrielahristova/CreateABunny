@@ -14,4 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (process.env.NODE_ENV === "development") {
     window.__PIXI_APP = app;
   }
+
+  const bunny = new PIXI.Sprite.from('src/assets/logo.png');
+  app.stage.addChild(bunny);
 });
