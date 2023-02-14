@@ -17,7 +17,7 @@ export default class Play extends Scene {
 
     this.addChild(text);
   }
-
+  
   /**
    * Hook called by the application when the browser window is resized.
    * Use this to re-arrange the game elements according to the window size
